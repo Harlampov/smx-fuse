@@ -1,0 +1,65 @@
+#!/bin/sh
+#
+
+DIRNAME=`dirname "$0"`
+PROGNAME=`basename "$0"`
+
+locateHome() {
+    if [ "x$KARAF_HOME" != "x" ]; then
+        warn "Ignoring predefined value for KARAF_HOME"
+    fi
+    
+    # In POSIX shells, CDPATH may cause cd to write to stdout
+    (unset CDPATH) >/dev/null 2>&1 && unset CDPATH
+
+    KARAF_HOME=`cd $DIRNAME/..; pwd`
+    if [ ! -d "$KARAF_HOME" ]; then
+        die "KARAF_HOME is not valid: $KARAF_HOME"
+    fi
+}
+
+pathCanonical() {
+    local dst="${1}"
+    while [ -h "${dst}" ] ; do
+        ls=`ls -ld "${dst}"`
+        link=`expr "$ls" : '.*-> \(.*\)$'`
+        if expr "$link" : '/.*' > /dev/null; then
+            dst="$link"
+        else
+            dst="`dirname "${dst}"`/$link"
+        fi
+    done
+    local bas=`basename "${dst}"`
+    local dir=`dirname "${dst}"`
+    if [ "$bas" != "$dir" ]; then
+        dst="`pathCanonical "$dir"`/$bas"
+    fi
+    echo "${dst}" | sed -e 's#//#/#g' -e 's#/./#/#g' -e 's#/[^/]*/../#/#g'
+}
+
+# Locate the Karaf home directory
+locateHome
+
+TARGET="$(pathCanonical $1)"
+if [ "x$TARGET" == "x" ]; then
+    die "Base folder not set, use bin/create [folder]"
+fi
+mkdir -p $TARGET
+TARGET=`cd $TARGET ; pwd`
+echo "Creating new Karaf root instance ..."
+echo "Home: $KARAF_HOME"
+echo "Base: $TARGET"
+cp -R $KARAF_HOME/etc $TARGET
+mkdir -p $TARGET/data
+mkdir -p $TARGET/bin
+mkdir -p $TARGET/system
+mkdir -p $TARGET/deploy
+chmod -R +w $TARGET
+echo "#!/bin/sh" >> $TARGET/bin/karaf
+echo "KARAF_BASE=$TARGET" >> $TARGET/bin/karaf
+echo "cd $KARAF_BASE" >> $TARGET/bin/karaf
+echo "$KARAF_HOME/bin/karaf \"\$@\""  >> $TARGET/bin/karaf
+chmod +x $TARGET/bin/karaf
+
+
+

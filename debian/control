@@ -1,0 +1,20 @@
+Source: smx-fuse
+Section: devel
+Priority: extra
+Maintainer: alh alh@elex.be
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+
+Package: smx-fuse
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Apache Servicemix FUSE
+    Fuse ESB is certified, productized and fully supported by
+    the people who wrote the code. Fuse ESB has a pluggable
+    architecture that allows organizations to use their preferred
+    service solutions in their SOA. Any standard JBI or OSGi-compliant
+    service engine or binding component - including BPEL, XSLT
+    or JMX engines - y be deployed to a Fuse ESB container, 
+    and Fuse ESB components may be deployed to other ESBs.
+    <http://servicemix.apache.org/>
+    <http://fusesource.com/>

@@ -1,0 +1,17 @@
+smx-fuse (4.4.1) unstable; urgency=low
+
+  * upgrade to apache-servicemix 4.4.1-fuse-03-06
+
+ -- alh <alh@elex.be>  Fri, 13 Jul 2012 14:48:04 +0300
+
+smx-fuse (4.3.1-1) unstable; urgency=low
+
+  * Added default file and updated init.d script
+
+ -- Marin Atanasov Nikolov <mra@mra-laptop>  Wed, 13 Jul 2011 14:48:04 +0300
+
+smx-fuse (4.3.1) unstable; urgency=low
+
+  * Initial release of Apache ServiceMix - FUSE ESB
+    
+ -- Marin Atanasov Nikolov <mra@melexis.com>  Tue, 31 May 2011 15:02:30 +0300
