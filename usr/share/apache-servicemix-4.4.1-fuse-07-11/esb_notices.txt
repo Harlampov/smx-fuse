@@ -1,0 +1,624 @@
+In addition to the FuseSource products, this disk contains certain third party software or components (“Third Party Components”), which are bundled as separate files or modules and separately licensed to you by said third parties. This file contains a listing of all NOTICE/NOTICE.txt files included with the Third Party Component jars in this distribution of Fuse ESB. Please see the esb_dependencies.txt file for the complete listing of Third Party Components and their attributed license agreements.  Your use of the Third Party Components is subject to the terms and conditions set forth in the applicable third party license agreement.  The Third Party Components are provided by FuseSource Corporation (“FSC”) solely on an "AS IS" basis, without any warranty.  FSC disclaims all warranties and indemnities with respect to the Third Party Components, express or implied, and assumes no liability with respect to the Third Party Components.  You acknowledge that the authors of the Third Party Components have no obligation to provide support to you for the Third Party Components.  You hereby undertake to comply with all licenses related to the applicable Third Party Components. All third party license agreements are contained in the licenses directory ofFuse ESB
+// ------------------------------------------------------------------
+
+Fuse ESB
+Copyright 2006-2012 FuseSource, Corp. All Rights Reserved.
+
+This product includes software developed at
+FuseSource, Corp. All Rights Reserved. (http://fusesource.com).
+
+This product includes/uses software(s) developed by 'an unknown organization'
+  - Unnamed - avalon-framework:avalon-framework:jar:4.1.3
+  - Unnamed - log4j:log4j:jar:1.2.12
+  - Unnamed - logkit:logkit:jar:1.0.1
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (http://www.apache.org/)
+  - Abdera Client (http://abdera.apache.org/abdera-client)
+  - Abdera Core (http://abdera.apache.org/abdera-core)
+  - Abdera Parser (http://abdera.apache.org/abdera-parser)
+  - Activation (http://geronimo.apache.org/geronimo-activation_1.0.2_spec)
+  - I18N Libraries (http://abdera.apache.org)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://www.apache.org/)
+  - Axiom API (http://ws.apache.org/axiom/axiom-api)
+  - Axiom Impl (http://ws.apache.org/axiom/axiom-impl/axiom-impl)
+  - Commons Codec (http://commons.apache.org/codec/)
+  - Xerces2 Java Parser (http://xerces.apache.org/xerces2-j)
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (http://www.apache.org)
+  - Activation 1.1 (http://geronimo.apache.org/specs/geronimo-activation_1.1_spec)
+  - Streaming API for XML (STAX API 1.0) (http://geronimo.apache.org/specs/geronimo-stax-api_1.0_spec)
+
+This product includes/uses software(s) developed by 'Codehaus' (http://www.codehaus.org/)
+  - Woodstox (http://woodstox.codehaus.org)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Logging (http://jakarta.apache.org/commons/logging/)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://www.apache.org)
+  - JavaMail 1.4 (http://geronimo.apache.org/maven/specs/geronimo-javamail_1.4_spec/1.6)
+  - XML APIs (http://xml.apache.org/commons/components/external/xml-apis)
+
+This product includes/uses software(s) developed by 'The Werken Company' (http://jaxen.codehaus.org)
+  - Jaxen (http://jaxen.codehaus.org/jaxen)
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (http://jakarta.apache.org/)
+  - HttpClient (http://jakarta.apache.org/httpcomponents/httpclient-3.x/)
+
+Apache Commons Lang
+Copyright 2001-2011 The Apache Software Foundation
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache Commons Codec
+Copyright 2002-2009 The Apache Software Foundation
+
+--------------------------------------------------------------------------------
+src/test/org/apache/commons/codec/language/DoubleMetaphoneTest.java contains 
+test data from http://aspell.sourceforge.net/test/batch0.tab.
+
+Copyright (C) 2002 Kevin Atkinson (kevina@gnu.org). Verbatim copying
+and distribution of this entire article is permitted in any medium,
+provided this notice is preserved.
+--------------------------------------------------------------------------------
+
+Apache Commons Net
+Copyright 2001-2010 The Apache Software Foundation
+
+   ==================================================================================
+   == NOTICE file corresponding to section 4 d of the Apache License, Version 2.0, == 
+   == in this case for the Spring Dynamic Modules / Spring OSGi distribution.      ==
+   ==================================================================================
+
+   This product includes software developed by
+   the Apache Software Foundation (http://www.apache.org).
+
+   The end-user documentation included with a redistribution, if any,
+   must include the following acknowledgement:
+
+     "This product includes software developed by the Spring Framework
+      Project (http://www.springsource.org)."
+
+   Alternatively, this acknowledgement may appear in the software itself,
+   if and wherever such third-party acknowledgements normally appear.
+
+   The names "Spring" and "Spring Framework" must not be used to
+   endorse or promote products derived from this software without
+   prior written permission. For written permission, please contact
+   enquiries@springsource.com.
+
+
+Commons Logging
+Copyright 2001-2007 The Apache Software Foundation
+
+Apache Commons CLI
+Copyright 2001-2009 The Apache Software Foundation
+
+This product currently only contains code developed by authors
+of specific components, as identified by the source code files.
+
+Since product implements StAX API, it has dependencies to StAX API
+classes.
+
+For additional credits (generally to people who reported problems)
+see CREDITS file.
+
+Apache Aries Transaction Manager
+Copyright 2009-2012 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache Aries Transaction Blueprint
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Aries Transaction Enlisting JDBC Datasource
+Copyright 2009-2011 The Apache Software Foundation
+
+ActiveIO :: Core
+Copyright 2005-2009 The Apache Software Foundation
+
+=========================================================================
+==  Apache Notice                                                      ==
+=========================================================================
+
+Apache ActiveMQ
+Copyright 2005-2008 The Apache Software Foundation
+
+=========================================================================
+==  Protocol Buffers Notice                                            ==
+=========================================================================
+
+This product includes software developed by the Protocol Buffers
+project (http://code.google.com/apis/protocolbuffers).
+
+   Copyright (c) 2007-2010, The JASYPT team (http://www.jasypt.org)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+---------------------------------
+
+This distribution includes cryptographic software.  The country in 
+which you currently reside may have restrictions on the import, 
+possession, use, and/or re-export to another country, of 
+encryption software.  BEFORE using any encryption software, please 
+check your country's laws, regulations and policies concerning the
+import, possession, or use, and re-export of encryption software, to 
+see if this is permitted.  See http://www.wassenaar.org/ for more
+information.
+
+The U.S. Government Department of Commerce, Bureau of Industry and
+Security (BIS), has classified this software as Export Commodity 
+Control Number (ECCN) 5D002.C.1, which includes information security
+software using or performing cryptographic functions with asymmetric
+algorithms.  The form and manner of this distribution makes it 
+eligible for export under the License Exception ENC Technology 
+Software Unrestricted (TSU) exception (see the BIS Export 
+Administration Regulations, Section 740.13) for both object code and 
+source code.
+
+The following provides more details on the cryptographic software 
+used (note that this software is not included in the distribution):
+
+  * The PBE Encryption facilities require the Java Cryptography 
+    extensions: http://java.sun.com/javase/technologies/security/.
+
+Distributions of this software may include software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+ICU License - ICU 1.8.1 and later
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright (c) 1995-2006 International Business Machines 
+Corporation and others
+
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any 
+person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the 
+Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, 
+distribute, and/or sell copies of the Software, and to 
+permit persons to whom the Software is furnished to do so, 
+provided that the above copyright notice(s) and this 
+permission notice appear in all copies of the Software and 
+that both the above copyright notice(s) and this 
+permission notice appear in supporting documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY 
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO 
+EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN 
+THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL 
+INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES 
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, 
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER 
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE 
+USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Except as contained in this notice, the name of a copyright 
+holder shall not be used in advertising or otherwise to 
+promote the sale, use or other dealings in this Software 
+without prior written authorization of the copyright holder. 
+
+Apache Velocity
+
+Copyright (C) 2000-2007 The Apache Software Foundation
+
+Apache Commons Daemon
+Copyright 1999-2010 The Apache Software Foundation
+
+   This product includes software developed by
+   The Apache Software Foundation (http://www.apache.org/).
+
+Apache Geronimo 
+Copyright 2003-2008 The Apache Software Foundation
+
+Java Authentication SPI for Containers
+Copyright 2003-2009 The Apache Software Foundation
+
+Apache HttpComponents HttpClient
+Copyright 1999-2011 The Apache Software Foundation
+
+This project contains annotations derived from JCIP-ANNOTATIONS
+Copyright (c) 2005 Brian Goetz and Tim Peierls. See http://www.jcip.net
+
+Apache HttpComponents HttpCore
+Copyright 2005-2011 The Apache Software Foundation
+
+Axiom API
+Copyright 2004-2010 The Apache Software Foundation
+
+JavaMail 1.4
+Copyright 2003-2009 The Apache Software Foundation
+
+Apache Geronimo 
+Copyright 2003-2006 The Apache Software Foundation
+
+Axiom Impl
+Copyright 2004-2010 The Apache Software Foundation
+
+Apache WebServices - WSS4J
+Copyright 2004-2012 The Apache Software Foundation
+
+Apache WebServices - XmlSchema
+Copyright 2004-2011 The Apache Software Foundation
+
+Portions Copyright 2006 International Business Machines Corp.
+
+Portions Copyright (C) World Wide Web Consortium 2006, 2007 and licensed under the 
+three-part BSD license.
+
+Apache CXF
+Copyright 2006-2012 The Apache Software Foundation
+
+This Product also includes software developed by David Heinemeier Hansson.
+(http://dev.rubyonrails.org/browser/trunk/activesupport/lib/active_support/inflections.rb)
+
+The product contains code (StaxBuilder.java) that is
+  Copyright (C) 2000-2004 Jason Hunter & Brett McLaughlin.
+  All rights reserved.
+  See the NOTICE.jdom file for additional information
+
+Java classes (source and binary) under org.apache.cxf.jaxws.javaee
+are generated from schema available here:
+(http://java.sun.com/xml/ns/javaee/javaee_5.xsd)
+
+This product includes software Copyright University of Southampton IT Innovation Centre, 2009 
+(http://www.it-innovation.soton.ac.uk). 
+
+Portions of the file cxf-utils.js derives from code marked:
+This code was written by Tyler Akins and has been placed in the
+public domain.  It would be nice if you left this header intact.
+Base64 code from Tyler Akins -- http://rumkin.com
+
+Apache Geronimo JAX-WS 2.2 API
+Copyright 2003-2010 The Apache Software Foundation
+
+Apache Commons JEXL
+Copyright 2001-2010 The Apache Software Foundation
+
+Apache Felix OSGi Bundle Repository
+Copyright 2010 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+Licensed under the Apache License 2.0.
+
+This product includes software from http://kxml.sourceforge.net.
+Copyright (c) 2002,2003, Stefan Haustein, Oberhausen, Rhld., Germany.
+Licensed under BSD License.
+
+Activation 1.1
+Copyright 2003-2010 The Apache Software Foundation
+
+Web Services Metadata 2.0
+Copyright 2003-2010 The Apache Software Foundation
+
+This product includes software developed by
+The W3C Consortium (http://www.w3.org/).
+
+Copyright © 1994-2002 World Wide Web Consortium, 
+(Massachusetts Institute of Technology, Institut National 
+de Recherche en Informatique et en Automatique, Keio 
+University). All Rights Reserved. 
+http://www.w3.org/Consortium/Legal/
+
+   =========================================================================
+   ==  NOTICE file corresponding to the section 4 d of                    ==
+   ==  the Apache License, Version 2.0,                                   ==
+   ==  in this case for the Apache Camel distribution.                    ==
+   =========================================================================
+
+   Please read the different LICENSE files present in the licenses directory of
+   this distribution.
+
+Apache Karaf :: Util
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Neethi
+Copyright 2004-2011 The Apache Software Foundation
+
+This product is tested with testcases developed at W3C under the license:
+http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231
+The source distribution of this product includes those testcases.
+
+Apache Abdera
+Copyright 2006-2011 Apache Software Foundation
+
+Apache ServiceMix
+Copyright 2005-2012 FuseSource
+
+Geronimo TxManager :: Transaction
+Copyright 2003-2009 The Apache Software Foundation
+
+Geronimo TxManager :: Connector
+Copyright 2003-2009 The Apache Software Foundation
+
+Apache Commons IO
+Copyright 2001-2008 The Apache Software Foundation
+
+=============================================================================
+= NOTICE file corresponding to section 4d of the Apache License Version 2.0 =
+=============================================================================
+This product includes software developed by
+Joda.org (http://www.joda.org/).
+
+Apache ServiceMix
+Copyright 2007-2011 The Apache Software Foundation
+
+Apache Geronimo JAX-WS 2.1 API
+Copyright 2003-2008 The Apache Software Foundation
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+Apache ServiceMix
+Copyright 2005-2010 The Apache Software Foundation
+
+Apache ServiceMix
+Copyright 2005-2011 The Apache Software Foundation
+
+Apache Jakarta HttpClient
+Copyright 1999-2007 The Apache Software Foundation
+
+   =========================================================================
+   ==  NOTICE file corresponding to section 4(d) of the Apache License,   ==
+   ==  Version 2.0, in this case for the Apache Xerces Java distribution. ==
+   =========================================================================
+
+   Apache Xerces Java
+   Copyright 1999-2007 The Apache Software Foundation
+
+   This product includes software developed at
+   The Apache Software Foundation (http://www.apache.org/).
+
+   Portions of this software were originally based on the following:
+     - software copyright (c) 1999, IBM Corporation., http://www.ibm.com.
+     - software copyright (c) 1999, Sun Microsystems., http://www.sun.com.
+     - voluntary contributions made by Paul Eng on behalf of the 
+       Apache Software Foundation that were originally developed at iClick, Inc.,
+       software copyright (c) 1999.
+
+Apache ServiceMix
+Copyright 2005-2009 The Apache Software Foundation
+
+Streaming API for XML (STAX API 1.0)
+Copyright 2003-2007 The Apache Software Foundation
+
+Servlet 3.0
+Copyright 2003-2010 The Apache Software Foundation
+
+Apache Jakarta Commons VFS
+Copyright 2002-2006 The Apache Software Foundation
+
+As an optional dependency it uses javamail developed by
+SUN Microsystems
+You can get the library and its source from http://java.sun.com/products/javamail/
+This library uses the CDDL open source license 
+
+Apache Karaf :: Features :: OBR Resolver
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: Web Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: ConfigAdmin Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: OBR Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Deployer :: Spring
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache XBean :: OSGI Blueprint Namespace Handler
+Copyright 2005-2011 The Apache Software Foundation
+
+Apache XBean :: Spring
+Copyright 2005-2012 The Apache Software Foundation
+
+Apache XBean :: Classloader
+Copyright 2005-2012 The Apache Software Foundation
+
+Pax Web
+Copyright 2007-2009 Open Participation for Java (www.ops4j.org)
+
+I. Included Software
+
+This product includes software developed at
+Open Participation for Java (http://www.ops4j.org).
+Licensed under the Apache License 2.0.
+
+This product includes software developed at
+The OSGi Alliance (http://www.osgi.org).
+Copyright (c) OSGi Alliance (2000, 2007).
+Licensed under the Apache License 2.0.
+
+II. Used Software
+
+This product uses software developed at
+The OSGi Alliance (http://www.osgi.org).
+Copyright (c) OSGi Alliance (2000, 2007).
+Licensed under the Apache License 2.0.
+
+This product uses software developed at
+Mort Bay Consulting Pty. Ltd. (http://www.mortbay.org/jetty).
+Copyright 2000-2009 Mort Bay Consulting Pty. Ltd.
+Licensed under the Apache License 2.0.
+
+III. License Summary
+- Apache License 2.0
+
+   =========================================================================
+   ==  NOTICE file corresponding to the section 4 d of                    ==
+   ==  the Apache License, Version 2.0,                                   ==
+   ==  in this case for the Apache Ant distribution.                      ==
+   =========================================================================
+
+   This product includes also software developed by :
+     - the W3C consortium (http://www.w3c.org) ,
+     - the SAX project (http://www.saxproject.org)
+
+   Please read the different LICENSE files present in the root directory of
+   this distribution.
+
+Apache Commons Collections
+Copyright 2001-2008 The Apache Software Foundation
+
+Apache Commons Pool
+Copyright 1999-2009 The Apache Software Foundation
+
+Apache Karaf :: Client
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Aries Unit Test Support
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Aries Proxy
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Felix Gogo Runtime
+Copyright 2011 The Apache Software Foundation
+
+This product includes software developed at
+The OSGi Alliance (http://www.osgi.org/).
+Copyright (c) OSGi Alliance (2000, 2009).
+Licensed under the Apache License 2.0.
+
+Apache Karaf :: JAAS :: Boot
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Main
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Exception
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Aries JMX Bundle
+Copyright 2009-2012 The Apache Software Foundation
+
+This product includes software developed at
+the OSGi Alliance (http://www.osgi.org/).
+
+Apache Aries JMX Blueprint Bundle
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Aries Util
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Aries Proxy Bundle
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Aries Proxy Implementation
+Copyright 2009-2011 The Apache Software Foundation
+
+Apache Aries Blueprint Bundle
+Copyright 2009-2012 The Apache Software Foundation
+
+Apache Felix File Install
+Copyright 2008-2011 The Apache Software Foundation
+
+Apache Felix Framework
+Copyright 2011 The Apache Software Foundation
+
+Apache Karaf :: Jaas :: Command
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: JAAS :: Modules
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: JAAS :: Config
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Management
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Admin :: Management
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Admin :: Command
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Admin :: Core
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Features :: Management
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Features :: Core
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Features :: Command
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: Log Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache log4j
+Copyright 2007 The Apache Software Foundation
+
+Apache Karaf :: Shell :: OSGi Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: Development Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: Console
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: Various Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: SSH
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Shell :: PackageAdmin Commands
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Diagnostic :: Command
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Diagnostic :: Common
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Diagnostic :: Management
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Diagnostic :: Core
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Deployer :: Wrap Non OSGi Jar
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Deployer :: Karaf Archive (.kar)
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Deployer :: Blueprint
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache Karaf :: Deployer :: Features
+Copyright 2007-2012 FuseSource, Corp.
+
+Apache MINA Core
+Copyright 2004-2010 Apache MINA Project
+
+Apache MINA SSHD
+Copyright 2008-2010 The Apache Software Foundation
+
+   Apache Xerces Java
+   Copyright 1999-2010 The Apache Software Foundation
+

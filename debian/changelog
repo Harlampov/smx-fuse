@@ -1,3 +1,9 @@
+smx-fuse (4.4.1-07-11) unstable; urgency=low
+
+  * update to apache-servicemix 4.4.1-fuse-07-11
+
+ -- alh <alh@elex.be>  Mon, 16 Jul 2012 15:17:23 +0300
+
 smx-fuse (4.4.1) unstable; urgency=low
 
   * upgrade to apache-servicemix 4.4.1-fuse-03-06
