@@ -35,7 +35,9 @@ case "$1" in
 
 	# Create SMX user and set ownership permissions
 	if ! id ${SMX_USER} > /dev/null 2>&1; then
-		${USERADD} -r -d ${SMX_HOME} ${SMX_USER}
+		${USERADD} -r -d ${SMX_HOME} ${SMX_USER} -s /bin/bash
+		echo export JAVA_HOME="/usr/lib/jvm/java-6-sun/" > ${SMX_HOME}/.bash_profile
+		chmod 755 ${SMX_HOME}/.bash_profile
 	fi
        
         # Set ownership permisions
