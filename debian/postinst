@@ -33,6 +33,9 @@ set -e
 case "$1" in
     configure)
 
+        # Create a symmlink apache-servicemix-$VERSION -> apache-servicemix
+        ${LN} -s -f ${SMX_HOME}-${SMX_VERSION} ${SMX_HOME}
+
 	# Create SMX user and set ownership permissions
 	if ! id ${SMX_USER} > /dev/null 2>&1; then
 		${USERADD} -r -d ${SMX_HOME} ${SMX_USER} -s /bin/bash
@@ -43,8 +46,6 @@ case "$1" in
         # Set ownership permisions
         ${CHOWN} -R ${SMX_USER}:${SMX_GROUP} ${SMX_HOME}-${SMX_VERSION}
 
-        # Create a symmlink apache-servicemix-$VERSION -> apache-servicemix
-        ${LN} -s -f ${SMX_HOME}-${SMX_VERSION} ${SMX_HOME}
 
     ;;
 
