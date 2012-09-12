@@ -4,7 +4,7 @@
 # see: dh_installdeb(1)
 
 # smx version
-SMX_VERSION=4.4.1-fuse-08-15
+SMX_VERSION=4.4.1-fuse-07-11
 
 # System binaries
 CHOWN=/bin/chown
