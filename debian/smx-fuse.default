@@ -3,7 +3,7 @@
 # installed at /etc/default/smx-fuse by the maintainer scripts
 
 JAVA_OPTS="$JAVA_OPTS -Duser.timezone=CET" # set the timezone for the oracle jdbc connection
-JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote.port=12345 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false" # allow connections through jmx for metrics
+JAVA_OPTS="$JAVA_OPTS -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false" # allow connections through jmx for metrics
 JAVA_OPTS="$JAVA_OPTS -server" # use the server vm
 JAVA_OPTS="$JAVA_OPTS -Xms2048m -Xmx2048m" # reserve a heap of 2GB
 JAVA_OPTS="$JAVA_OPTS -XX:PermSize=512m -XX:MaxPermSize=512m" # reserve a perm gen of 512MB

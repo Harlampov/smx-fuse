@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo wait 5sec ...
+sleep 5
+/etc/init.d/smx-fuse stop
+echo wait 5sec ...
+sleep 5
+

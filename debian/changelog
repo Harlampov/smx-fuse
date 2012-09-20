@@ -1,3 +1,10 @@
+smx-fuse (4.4.1-07-11-01) unstable; urgency=low
+
+  * -Dcom.sun.management.jmxremote.port=12345 removed from smx-fuse.defaults 
+  * prerm script added to stop smx 
+
+ -- alh <alh@elex.be>  Thu, 20 Sep 2012 10:33:05 +0300
+
 smx-fuse (4.4.1-07-11) unstable; urgency=low
 
   * roll-back to 4.4.1-fuse-07-11
