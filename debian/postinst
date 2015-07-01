@@ -10,6 +10,7 @@ SMX_VERSION=4.4.1-fuse-07-11
 CHOWN=/bin/chown
 USERADD=/usr/sbin/useradd
 LN=/bin/ln
+RM=/bin/rm
 
 # User and group for the ServiceMix
 SMX_USER=smx-fuse
@@ -33,6 +34,8 @@ set -e
 case "$1" in
     configure)
 
+	# Cleanup target dir before symlinking
+	${RM} -rf ${SMX_HOME}
         # Create a symmlink apache-servicemix-$VERSION -> apache-servicemix
         ${LN} -s -f ${SMX_HOME}-${SMX_VERSION} ${SMX_HOME}
 
